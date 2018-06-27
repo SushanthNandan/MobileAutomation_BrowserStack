@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.779 s <<< FAILURE! - in TestSuite
+launchAdbFrameMobile(browserstack.mobile.frameSwitch)  Time elapsed: 3.232 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+We're sorry, but we no longer support emulators or simulators. However, you can now run your selenium tests on real iOS and Android devices. Real devices are faster and more stable. Please contact our Sales team by visiting https://www.browserstack.com/contact and creating a query related to Sales. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.21 seconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'BAN-DEVARAJLW10', ip: '10.150.108.48', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at browserstack.mobile.frameSwitch.launchAdbFrameMobile(frameSwitch.java:231)
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Device And System" parallel="tests">
+	<test name="Base Test1">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="browserstack.mobile.frameSwitch" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
